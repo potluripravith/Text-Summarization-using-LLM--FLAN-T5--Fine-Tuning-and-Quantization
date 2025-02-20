@@ -1,0 +1,78 @@
+================================================================================
+ARTICLE EXCERPT (first 300 chars):
+(CNN) I see signs of a revolution everywhere. I see it in the op-ed pages of the newspapers, and on the state ballots in nearly half the country. I see it in politicians who once preferred to play it safe with this explosive issue but are now willing to stake their political futures on it. I see the...
+
+REFERENCE SUMMARY:
+CNN's Dr. Sanjay Gupta says we should legalize medical marijuana now .
+He says he knows how easy it is do nothing "because I did nothing for too long"
+
+BASE MODEL SUMMARY:
+Marijuana is a medicine that should be studied and treated like any other medicine. It should be legalized nationally, and we should do it now. But at some point, contentious issues do get resolved.
+
+FINE-TUNED MODEL SUMMARY:
+Marijuana is a medicine that should be studied and treated like any other medicine. It should be legalized nationally, and we should do it now. But at some point, contentious issues do get resolved.
+
+RAG-ENHANCED SUMMARY:
+Marijuana is a medicine that should be studied and treated like any other medicine. It should be legalized nationally. And, we should do it now.
+================================================================================
++--------------------+---------+---------+---------+
+|       Model        | ROUGE-1 | ROUGE-2 | ROUGE-L |
++--------------------+---------+---------+---------+
+|    Base FLAN-T5    |  0.2540 |  0.0328 |  0.1270 |
+| Fine-tuned FLAN-T5 |  0.2540 |  0.0328 |  0.1270 |
+|    RAG-enhanced    |  0.2963 |  0.0385 |  0.1111 |
++--------------------+---------+---------+---------+
+
+================================================================================
+ARTICLE EXCERPT (first 300 chars):
+He looks barely teenage. But this child has amassed thousands of Twitter followers with his pictorial updates of 'gang life'. The baby-faced boy from Memphis, Tennessee, poses with guns, cash, and bags of what looks like marijuana. Scroll down for video . Baby-faced: This little boy has amassed more...
+
+REFERENCE SUMMARY:
+Child has amassed thousands of Twitter followers with 'gang life' photos .
+In one video he points gun at camera as adults look on unfazed .
+His tweets have prompted backlash with calls for intervention .
+
+BASE MODEL SUMMARY:
+Little boy, from Memphis, Tennessee, poses with guns, cash and bags of marijuana. He has amassed more than 3,000 followers on Twitter. Critics say he has had a tough year and the backlash is 'stressing out'
+
+FINE-TUNED MODEL SUMMARY:
+Little boy, from Memphis, Tennessee, poses with guns, cash and bags of marijuana. He has amassed more than 3,000 followers on Twitter. Critics say he has had a tough year and the backlash is 'stressing out'
+
+RAG-ENHANCED SUMMARY:
+Little boy from Memphis, Tennessee, poses with guns, cash, and bags of marijuana. He has amassed more than 3,000 followers on Twitter with pictures of 'gang life' Critics call his stunts 'sad'
+================================================================================
++--------------------+---------+---------+---------+
+|       Model        | ROUGE-1 | ROUGE-2 | ROUGE-L |
++--------------------+---------+---------+---------+
+|    Base FLAN-T5    |  0.2857 |  0.0294 |  0.1429 |
+| Fine-tuned FLAN-T5 |  0.2857 |  0.0294 |  0.1429 |
+|    RAG-enhanced    |  0.4242 |  0.0625 |  0.2121 |
++--------------------+---------+---------+---------+
+
+================================================================================
+ARTICLE EXCERPT (first 300 chars):
+New Jersey Governor Chris Christie wasn't looking too presidential Tuesday night when he got into a heated debate with a veteran teacher at a town hall meeting. And now the state's largest teacher's union is calling him out for his 'bullying' behavior. 'He's always taken a very nasty and disrespectf...
+
+REFERENCE SUMMARY:
+The presidential hopeful held a town hall meeting in Kenilworth on Tuesday .
+During the meeting, high school English teacher Kathy Mooney got up to ask the governor a question about pensions .
+She asked why he didn't seek a higher legal settlement in a case with ExxonMobil that would have contributed to the state's pension system .
+Christie responded by repeatedly asking how much Mooney knew about the deal instead of answering her question .
+
+BASE MODEL SUMMARY:
+New Jersey Gov Chris Christie is being called a bully for the way he interacted with a teacher at a town hall meeting Tuesday night. Christie settled the deal for $225million, despite the fact that the state had originally asked for $8.9billion. Mooney questioned Christie's motivations behind a legal settlement with oil company ExxonMobil which could have contributed drastically to the state's pension plans for teachers. Christie said: 'I want to understand your analysis of how you know that in a ten year long, court case, that you have enough
+
+FINE-TUNED MODEL SUMMARY:
+New Jersey Gov Chris Christie is being called a bully for the way he interacted with a teacher at a town hall meeting Tuesday night. Christie settled the deal for $225million, despite the fact that the state had originally asked for $8.9billion. Mooney questioned Christie's motivations behind a legal settlement with oil company ExxonMobil which could have contributed drastically to the state's pension plans for teachers. Christie said: 'I want to understand your analysis of how you know that in a ten year long, court case, that you have enough
+
+RAG-ENHANCED SUMMARY:
+New Jersey Governor Chris Christie is being called a bully for his 'bullying' behavior. Christie was at Kenilworth Town Hall to take questions from a group of citizens, when Kathy Mooney, a high school English Teacher from Roselle Park, took the microphone. Mooney questioned Christie's motivations behind a legal settlement with ExxonMobil which could have contributed drastically to the state's pension plans for teachers. Christie settled the deal for $225million, despite the fact that the state had originally asked for $8.9billion which Mooney described as '
+================================================================================
++--------------------+---------+---------+---------+
+|       Model        | ROUGE-1 | ROUGE-2 | ROUGE-L |
++--------------------+---------+---------+---------+
+|    Base FLAN-T5    |  0.4311 |  0.1333 |  0.2754 |
+| Fine-tuned FLAN-T5 |  0.4311 |  0.1333 |  0.2754 |
+|    RAG-enhanced    |  0.4691 |  0.1625 |  0.2963 |
++--------------------+---------+---------+---------+
+
